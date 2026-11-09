@@ -12,3 +12,16 @@ If we had more time we would've wanted to try implement more functions like a ti
 ## View it live
 
 https://common-knowledge.netlify.app/
+
+## My contribution
+
+We built this as a team of five, mostly through mob and pair programming, so most parts were written together. We planned the quiz, made the design sketch and split smaller tasks between us.
+
+## Run locally
+
+```bash
+npm install
+NODE_OPTIONS=--openssl-legacy-provider npm start
+```
+
+The project uses Create React App 3, which needs the legacy OpenSSL option in Node 17 and later.
